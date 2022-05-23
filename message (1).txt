@@ -1,0 +1,64 @@
+-- Bull Sploit rEAL
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local BullSploit = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BackgroundTransparency = 0.100
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.415243089, 0, 0.201226994, 0)
+main.Size = UDim2.new(0, 534, 0, 300)
+
+
+BullSploit.Name = "BullSploit"
+BullSploit.Parent = main
+BullSploit.BackgroundColor3 = Color3.fromRGB(132, 132, 132)
+BullSploit.BackgroundTransparency = 1.000
+BullSploit.BorderColor3 = Color3.fromRGB(120, 120, 120)
+BullSploit.Position = UDim2.new(0, 0, 0.306666672, 0)
+BullSploit.Size = UDim2.new(0, 534, 0, 141)
+BullSploit.Font = Enum.Font.Cartoon
+BullSploit.Text = "dijofjd"
+BullSploit.TextColor3 = Color3.fromRGB(255, 255, 255)
+BullSploit.TextScaled = true
+BullSploit.TextSize = 14.000
+BullSploit.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0, 0, -0.50666666, 0)
+Close.Size = UDim2.new(0, 864, 0, 729)
+Close.Font = Enum.Font.SourceSans
+Close.Text = " "
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.Size = UDim2.new(0, 619, 0, 787)
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.Size = UDim2.new(0, 619, 0, 787)
+open.Font = Enum.Font.SourceSans
+open.Text = "SJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS KSJIKS K"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
